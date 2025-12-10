@@ -1,0 +1,16 @@
+# 新闻源配置示例，可根据需要调整或扩展
+rss:
+  - name: Example RSS
+    url: https://news.google.com/rss
+  - name: BBC World
+    url: https://feeds.bbci.co.uk/news/world/rss.xml
+
+api:
+  - name: Example API
+    url: https://example.com/api/news
+    headers:
+      Authorization: Bearer YOUR_TOKEN
+
+html:
+  - name: Example HTML
+    url: https://example.com/news
